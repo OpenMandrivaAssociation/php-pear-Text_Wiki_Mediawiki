@@ -4,8 +4,8 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.2.0
-Release:	%mkrel 1
-Summary:	Parsing and rendering rules for Wiki markup in structured text
+Release:	%mkrel 2
+Summary:	Mediawiki parser for Text_Wiki
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Text_Wiki/
@@ -18,8 +18,7 @@ BuildRequires:	php-pear
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
-Abstracts parsing and rendering rules for Wiki markup in structured
-plain text.
+Parses Mediawiki mark-up to tokenize the text for Text_Wiki renderings.
 
 %prep
 %setup -q -c
