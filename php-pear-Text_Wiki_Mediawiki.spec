@@ -58,3 +58,22 @@ fi
 %defattr(-,root,root)
 %{_datadir}/pear/%{_class}
 %{_datadir}/pear/packages/%{upstream_name}.xml
+
+
+%changelog
+* Fri Dec 16 2011 Oden Eriksson <oeriksson@mandriva.com> 0.2.0-4mdv2012.0
++ Revision: 742294
+- fix major breakage by careless packager
+
+* Fri May 27 2011 Oden Eriksson <oeriksson@mandriva.com> 0.2.0-3
++ Revision: 679598
+- mass rebuild
+
+* Wed Oct 20 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.0-2mdv2011.0
++ Revision: 587006
+- proper summary and description
+
+* Wed Oct 20 2010 Guillaume Rousse <guillomovitch@mandriva.org> 0.2.0-1mdv2011.0
++ Revision: 586978
+- import php-pear-Text_Wiki_Mediawiki
+
