@@ -4,7 +4,7 @@
 
 Name:		php-pear-%{upstream_name}
 Version:	0.2.0
-Release:	5
+Release:	6
 Summary:	Mediawiki parser for Text_Wiki
 License:	PHP License
 Group:		Development/PHP
